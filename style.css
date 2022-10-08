@@ -1,0 +1,107 @@
+body{
+    background: whitesmoke;
+}
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+
+p,a{
+    color: rgb(149, 149, 149);
+    text-decoration: none;
+}
+
+
+.full-screen{
+    width: 950px;
+
+    margin: 0 auto;
+    
+}
+
+.left-middle,.right-middle{
+    display: inline-block;
+    width: 49.5%;
+    vertical-align:top;
+    text-align: center;
+
+}
+.border{
+    background-color:#fff;
+    border: 1px solid rgb(230, 226, 226);
+    padding: 35px;
+    width: 285px;
+    margin-top:35px;
+}
+
+.border form input{
+    display: block;
+    width: 100%;
+    margin:0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    outline: none;
+    background-color: whitesmoke;
+    margin-top: 5px;  
+    border-radius: 3px;
+}
+button{
+    width: 97%;
+    padding: 10px;
+    background-color:rgb(73, 161, 244) ;
+    border: none;
+    color: white;
+    border-radius: 2px;
+}
+button:focus{
+    background-color: rgb(11, 81, 245);
+}
+.border p:first-of-type{
+    
+    font-size: 18px; 
+    }
+.border a{
+    font-weight: bold;
+    font-size: 13px;
+}
+.border p{
+    font-size: 13px;
+}
+.secend-border{
+border: 1px solid rgb(230, 230, 230);
+background:white;
+width: 354px;
+margin-top: 10px;
+padding: 10px 0;
+}
+.secend-border p{
+    color: black;
+}
+.secend-border a{
+    color: rgb(10, 104, 227);
+}
+.store-links{
+    width: 355px;
+}
+.store-links p{
+color: black;
+}
+.imgs img{
+    width: 150px;
+}
+.left-middle{
+padding-top: 20px;
+}
+.left-middle img{
+height: 680px;
+margin-top: 15%;
+}
+#footer{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#footer a{
+    font-size: 13px;
+    margin: 5px;
+}
